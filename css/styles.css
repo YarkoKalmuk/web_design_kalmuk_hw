@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f6f2;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.header-logo {
+    font-weight: 600;
+    font-size: 24px;
+    color: #2D5A27;
+    margin: 0;
+}
+
+.header-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #363a3b;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.header-link:hover {
+    color: #2D5A27;
+}
+
+.hero {
+    display: flex;
+    padding: 60px 80px;
+    align-items: center;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.hero-content {
+    flex: 1;
+    text-align: left;
+    padding-right: 40px;
+}
+
+.hero-header {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #1a1a1a;
+    padding-bottom: 50px;
+}
+
+.hero-img {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-img img {
+    width: 350px;
+    height: auto;
+    object-fit: contain;
+}
+
+.hero-kickstarter-btn {
+    margin-top: 30px;
+    width: auto;
+    padding: 15px 30px;
+    height: auto;
+}
